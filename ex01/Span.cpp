@@ -21,10 +21,6 @@ Span &Span::operator=(const Span &other) {
 Span::~Span() {
 }
 
-// const std::vector<int> &Span::getNumbers() const {
-// 	return _span;
-// }
-
 const std::vector<int>::const_iterator Span::begin() const {
 	return _span.begin();
 }
